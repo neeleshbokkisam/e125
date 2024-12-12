@@ -5,6 +5,99 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Privacy Risks</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            color: #333;
+        }
+        .header {
+            background-color: #007BFF;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .header h1 {
+            font-size: 2.5rem;
+        }
+        .navbar {
+            background-color: #333;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .section ul {
+            list-style: none; /* Removes bullets */
+            padding-left: 0; /* Removes default padding */
+        }
+
+        .section li {
+            margin-bottom: 10px;
+            font-size: 1.1rem;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            font-size: 1rem;
+            padding: 5px 10px;
+            transition: background 0.3s ease;
+        }
+        .navbar a:hover {
+            background-color: #555;
+            border-radius: 5px;
+        }
+        .section {
+            padding: 40px 20px;
+        }
+        .section h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+        .section p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+        .section ul {
+            margin: 20px 0;
+            padding-left: 20px;
+        }
+        .section li {
+            margin-bottom: 10px;
+            font-size: 1.1rem;
+        }
+        /* Section */
+        .section {
+            padding: 40px 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center; /* Centers text inside */
+        }
+
+        /* Container */
+        .container {
+            max-width: 800px; /* Set a max width for readability */
+            margin: 0 auto; /* Horizontally center */
+        }
+
+        .highlight {
+            color: #007BFF;
+            font-weight: bold;
+        }
+        .example-box, .stats-box {
+            background-color: #f4f4f4;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
 </head>
 <body>
     <header class="header">
@@ -26,15 +119,42 @@
     <section class="section">
         <div class="container">
             <h2>Common Privacy Risks:</h2>
+            <div>
+                <p><b>Data Breaches:</b> Hackers steal sensitive data like passwords, credit card details, and personal information.</p>
+                <p><b>Tracking and Profiling:</b> Companies track online activity and create detailed profiles to serve targeted ads.</p>
+                <p><b>Phishing Attacks:</b> Fraudulent emails or websites trick users into providing sensitive information.</p>
+                <p><b>Social Engineering:</b> Attackers manipulate individuals into revealing confidential information.</p>
+                <p><b>Public Wi-Fi Vulnerabilities:</b> Data can be intercepted when using unsecured networks.</p>
+                <p><b>Device Theft:</b> Lost or stolen devices can lead to unauthorized access to personal data.</p>
+            </div>
+    
+            <div class="stats-box">
+                <h3>Key Statistics:</h3>
+                <div>
+                    <p><b>60%:</b> of small businesses experience data breaches.</p>
+                    <p><b>1.4 million:</b> identity theft cases were reported in the U.S. last year.</p>
+                    <p><b>92%:</b> of internet users worry about their privacy online.</p>
+                </div>
+            </div>
+    
+            <h2>Real-World Examples:</h2>
+            <div class="example-box">
+                <p><b>Example 1:</b> In 2019, a major data breach exposed over 100 million personal records, including credit card numbers and addresses.</p>
+                <p><b>Example 2:</b> A phishing scam targeting a popular streaming service led to thousands of accounts being compromised.</p>
+            </div>
+        </div>
+        <div class="container">
+            <h2>How to Minimize Privacy Risks:</h2>
             <ul>
-                <li><b>Data Breaches:</b> Hackers steal sensitive data like passwords and credit card details.</li>
-                <li><b>Tracking:</b> Companies track online activity to create user profiles for targeted ads.</li>
-                <li><b>Identity Theft:</b> Criminals use stolen data to impersonate users and commit fraud.</li>
+                <li><b>Regularly Update Software:</b> Ensure your devices have the latest security patches.</li>
+                <li><b>Monitor Your Accounts:</b> Check your financial statements and online accounts for suspicious activity.</li>
+                <li><b>Be Cautious Online:</b> Avoid clicking on suspicious links or downloading unknown attachments.</li>
+                <li><b>Encrypt Sensitive Data:</b> Use encryption tools to secure important files.</li>
+                <li><b>Backup Your Data:</b> Maintain secure backups to prevent loss during attacks.</li>
             </ul>
-            <h2>Real-World Example:</h2>
-            <p>In 2019, a major data breach exposed the personal data of over 100 million people. This highlights the need for stronger security measures.</p>
         </div>
     </section>
+    
 
     <footer class="footer">
         <div class="container">
