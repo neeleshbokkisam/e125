@@ -1,40 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Data Privacy 101</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Data Privacy 101</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: url('https://example.com/your-background-image.jpg') no-repeat center center/cover;
+      color: white;
+      text-align: center;
+      padding: 50px 20px;
+      position: relative;
+    }
+    header::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5);
+      z-index: 1;
+    }
+    header h1 {
+      font-size: 3em;
+      margin: 0;
+      z-index: 2;
+      position: relative;
+    }
+    header p {
+      font-size: 1.2em;
+      margin: 10px 0;
+      z-index: 2;
+      position: relative;
+    }
+    .cta-button {
+      background-color: #ff6600;
+      color: white;
+      padding: 10px 20px;
+      font-size: 1em;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      text-decoration: none;
+      z-index: 2;
+      position: relative;
+    }
+    .overview {
+      display: flex;
+      justify-content: center;
+      margin: 30px auto;
+      text-align: center;
+    }
+    .overview div {
+      margin: 10px;
+      padding: 20px;
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      position: relative;
+    }
+    footer a {
+      color: #ff6600;
+      text-decoration: none;
+    }
+  </style>
 </head>
 <body>
-    <header class="header">
-        <div class="container">
-            <h1>Data Privacy 101</h1>
-            <p>Understand and protect your personal data in the digital age.</p>
-        </div>
-    </header>
-
-    <nav class="navbar">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="understanding.html">Understanding</a></li>
-            <li><a href="risks.html">Privacy Risks</a></li>
-            <li><a href="protecting.html">Protect Your Data</a></li>
-            <li><a href="resources.html">Resources</a></li>
-        </ul>
-    </nav>
-
-    <section class="section">
-        <div class="container">
-            <h2>Welcome to Data Privacy 101</h2>
-            <p>In a world where data is constantly collected and shared, it's crucial to know how to safeguard your privacy. This website will guide you through the basics of data privacy and provide actionable steps to protect yourself online.</p>
-        </div>
-    </section>
-
-    <footer class="footer">
-        <div class="container">
-            <p>&copy; 2024 Data Privacy 101. All rights reserved.</p>
-        </div>
-    </footer>
+  <header>
+    <h1>Data Privacy 101</h1>
+    <p>Understand and protect your personal data in the digital age.</p>
+    <a href="#understanding" class="cta-button">Learn More</a>
+  </header>
+  <section class="overview">
+    <div>
+      <h2>Understand Privacy Risks</h2>
+      <p>Learn about the threats to your data privacy in today’s digital world.</p>
+    </div>
+    <div>
+      <h2>Protect Your Data</h2>
+      <p>Discover tips and tools to safeguard your information online.</p>
+    </div>
+    <div>
+      <h2>Access Resources</h2>
+      <p>Find guides and tools to help you stay secure.</p>
+    </div>
+  </section>
+  <footer>
+    <p>&copy; 2024 Data Privacy 101. All rights reserved. <a href="#contact">Contact Us</a></p>
+  </footer>
 </body>
 </html>
